@@ -1,0 +1,21 @@
+var template = ( 
+    <div>
+    <h1>Indecision App</h1>
+    <p>esto es info</p>
+        <ol>
+            <li>Item uno</li>
+            <li>Item dos</li>
+    </ol> 
+    </div>
+);
+
+var userName = "dat";
+var userAge = 41;
+var userLocation = "San Fernando";
+var template2 = (
+    <div>
+    <h1> { userName.toLocaleUpperCase() + '!' } </h1>
+    <p>edad: { userAge }</p>
+    <p>localidad: { userLocation }</p>
+    </div>
+);
